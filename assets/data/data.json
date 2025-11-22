@@ -4,70 +4,70 @@
     "descricao": "O herói principal do Reino Cogumelo. Mario é corajoso e alegre, e instantaneamente reconhecível com seu macacão azul, boné vermelho e bigode.",
     "primeira_aparicao": 1981,
     "imagem": "https://mario.nintendo.com/static/0f10f738d1f9aa8292fa7d93c35f2a07/02be2/mario.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/mario/"
+    "link": "https://www.mariowiki.com/Mario"
   },
   {
     "nome": "Luigi",
     "descricao": "O irmão mais novo e mais alto de Mario. Luigi é um pouco medroso, especialmente perto de fantasmas, mas suas habilidades estão no mesmo nível de Mario.",
     "primeira_aparicao": 1983,
     "imagem": "https://mario.nintendo.com/static/73f9272aebf9a014261584b35597878f/d9801/luigi.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/luigi/"
+    "link": "https://www.mariowiki.com/Luigi"
   },
   {
     "nome": "Princesa Peach",
     "descricao": "A amada princesa do Reino Cogumelo. Ela é extremamente gentil e está sempre trabalhando para criar um mundo onde todos possam viver felizes.",
     "primeira_aparicao": 1985,
     "imagem": "https://mario.nintendo.com/static/43a96c1d5b681d338864aac15cd391b9/f3703/peach.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/peach/"
+    "link": "https://www.mariowiki.com/Princess_Peach"
   },
   {
     "nome": "Bowser",
     "descricao": "O Rei dos Koopas e arqui-inimigo de Mario. Bowser está sempre causando problemas no Reino Cogumelo com seus planos de dominação.",
     "primeira_aparicao": 1985,
     "imagem": "https://mario.nintendo.com/static/7204f288e3e823a8203c445fb6cc0d7e/b1656/bowser.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/bowser/"
+    "link": "https://www.mariowiki.com/Bowser"
   },
   {
     "nome": "Toad",
     "descricao": "Um residente do Reino Cogumelo que trabalha a serviço da Princesa Peach. Toad é muito alegre e leal, sempre ajudando Mario e Luigi.",
     "primeira_aparicao": 1985,
     "imagem": "https://mario.nintendo.com/static/e3ebf11b069067da929b608250baa44e/55d59/toad.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/toad/"
+    "link": "https://www.mariowiki.com/Toad_(species)"
   },
   {
     "nome": "Yoshi",
     "descricao": "O companheiro confiável de Mario que vem da Ilha de Yoshi. Ele usa sua longa língua para engolir frutas e inimigos.",
     "primeira_aparicao": 1990,
     "imagem": "https://mario.nintendo.com/static/850b7938ec9df2a77921738a12857e88/c4ba3/yoshi.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/yoshi/"
+    "link": "https://www.mariowiki.com/Yoshi"
   },
   {
     "nome": "Donkey Kong",
     "descricao": "O poderoso rei da selva. Embora às vezes seja um rival de Mario, ele também é um herói por direito próprio, protegendo sua ilha e sua enorme reserva de bananas.",
     "primeira_aparicao": 1981,
     "imagem": "https://mario.nintendo.com/static/b444206395480738954c3cbbd86716cc/c2c43/donkey-kong.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/donkey-kong/"
+    "link": "https://www.mariowiki.com/Donkey_Kong"
   },
   {
     "nome": "Rosalina",
     "descricao": "Uma figura misteriosa e poderosa que viaja pelo cosmos com seus companheiros Lumas. Ela é a protetora do cosmos e observa as estrelas do Observatório do Cometa.",
     "primeira_aparicao": 2007,
     "imagem": "https://mario.nintendo.com/static/9413cb5d146400e7368855759d084c69/d1a6b/rosalina.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/rosalina/"
+    "link": "https://www.mariowiki.com/Rosalina"
   },
   {
     "nome": "Wario",
     "descricao": "O rival ganancioso e mal-humorado de Mario. Ele é obcecado por tesouros e fará de tudo para ficar rico, muitas vezes causando problemas para os outros.",
     "primeira_aparicao": 1992,
     "imagem": "https://mario.nintendo.com/static/2e8e71c5b38a5aedd5eef91c3d54bf13/747d9/wario.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/wario/"
+    "link": "https://www.mariowiki.com/Wario"
   },
   {
     "nome": "Waluigi",
     "descricao": "O parceiro de Wario e o autoproclamado rival de Luigi. Ele é alto, magro e adora causar travessuras, especialmente em competições esportivas.",
     "primeira_aparicao": 2000,
     "imagem": "https://mario.nintendo.com/static/54c0617c992012b38e212c154f4e3944/3eddd/waluigi.png",
-    "link": "https://www.nintendo.com/pt-br/store/characters/waluigi/"
+    "link": "https://www.mariowiki.com/Waluigi"
   },
   {
     "nome": "Goomba",
