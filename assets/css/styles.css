@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"); /* Importa a fonte Quicksand do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+* {
+  box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
+}
+
+:root {
+  --mario-red: #e46563; /* Vermelho do Mario */
+  --mario-green: #40d459; /* Verde */
+  --coin-gold: #fbd000; /* Amarelo das moedas */
+  --bg-color: #2a2a2a; /* Fundo escuro (castelo) */
+  --text-color: #ffffff; /* Cor do texto principal (branco) */
+}
+
+body {
+  margin: 0; /* Remove a margem padrão do body */
+  background: url(../../assets/img/bg.png); /* Define a imagem de fundo */
+  background-repeat: no-repeat;
+  background-size: cover; /* Define a cor de fundo usando uma variável */
+  color: var(
+    --text-color
+  ); /* Define a cor do texto padrão usando uma variável */
+  font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+  width: 100%; /* Largura total da viewport */
+  height: 100vh; /* Altura total da viewport */
+}
+
+header {
+  padding: 0.5rem 1rem; /* Espaçamento interno (0.5rem em cima/baixo, 1rem nos lados) */
+  padding: 10px 1rem; /* Espaçamento interno de 10px em cima/baixo */
+  display: flex; /* Habilita o layout flexbox */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: space-around; /* Centraliza os itens horizontalmente */
+  position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
+  top: 0; /* Posição do topo quando sticky */
+  background: var(--bg-color); /* Cor de fundo do cabeçalho */
+  z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+  gap: 2rem; /* Espaçamento entre os elementos flex */
+  /* margin-top: 25px; */
+}
+
+header a {
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: inherit; /* Faz o link herdar a cor do elemento pai */
+}
+
+header h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-size: 2rem; /* Tamanho da fonte */
+  margin: 0; /* Remove a margem padrão */
+  font-weight: 500; /* Peso da fonte (médio) */
+  white-space: nowrap; /* Impede a quebra de linha do texto */
+  word-spacing: -1rem; /* Reduz o espaço entre as palavras */
+}
+
+/* Estilo para a div que contém o input e o botão */
+header div {
+  display: flex;
+  align-items: center;
+}
+
+div input {
+  padding: 0.375rem 0.75rem; /* Espaçamento interno */
+  border-radius: 1rem; /* Arredonda as bordas */
+  border: 2px solid var(--mario-green); /* Define a borda */
+  background: var(--bg-color); /* Cor de fundo */
+  font-family: inherit; /* Herda a família da fonte do elemento pai */
+  font-size: 1.5rem; /* Tamanho da fonte */
+  transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
+  width: 22rem; /* Largura do input */
+  color: var(--text-color); /* Cor do texto digitado */
+}
+
+div input::placeholder {
+  font-size: 1.2rem; /* Tamanho da fonte do placeholder */
+  font-weight: 300; /* Peso da fonte do placeholder */
+  color: var(--mario-green); /* Cor do texto do placeholder */
+}
+
+div input:focus {
+  outline: none; /* Remove a borda de foco padrão */
+  border-color: var(--mario-red); /* Muda a cor da borda ao focar */
+  box-shadow: 0 0 0 0.1rem var(--mario-red); /* Adiciona uma sombra de caixa para indicar foco */
+}
+
+main {
+  overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
+  max-width: 60rem; /* Largura máxima do conteúdo principal */
+  margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
+  margin-top: 1rem; /* Margem no topo */
+  height: 100vh; /* Calcula a altura para preencher o espaço restante da tela */
+}
+
+main.busca-ativa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(
+    100vh - 120px
+  ); /* Ajusta a altura para centralizar na tela visível */
+  overflow-y: hidden; /* Esconde o scroll quando a busca está ativa */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+article {
+  display: flex; /* Habilita o layout flexbox */
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
+  gap: 1.5rem; /* Espaço entre a imagem e o texto */
+  background: rgba(0, 0, 0, 0.9); /* Fundo preto translúcido para o card */
+  border-radius: 8px; /* Bordas arredondadas */
+  padding: 1rem; /* Espaçamento interno */
+  margin-bottom: 1.25rem; /* Margem inferior */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+  transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
+  border-bottom: 4px solid var(--mario-green); /* Borda inferior verde */
+  max-width: 58rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+article:hover {
+  transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
+}
+
+.card-image {
+  width: 150px; /* Largura fixa para a imagem */
+  height: 150px; /* Altura fixa para a imagem */
+  object-fit: contain; /* Garante que a imagem caiba sem distorcer */
+  border-radius: 8px; /* Arredonda as bordas da imagem */
+  background-color: var(--bg-color); /* Cor de fundo para a imagem */
+}
+
+article h2 {
+  margin-top: 0; /* Remove a margem superior */
+  font-weight: 600; /* Peso da fonte */
+  font-size: 1.6rem; /* Tamanho da fonte */
+  border-bottom: none; /* Sem borda inferior */
+  padding-bottom: 0; /* Sem espaçamento interno inferior */
+  margin-bottom: 0.25rem; /* Margem inferior */
+  color: var(--mario-red); /* Cor do texto */
+}
+
+article p {
+  margin: 0.5rem 0; /* Margem superior e inferior */
+  line-height: 1.6; /* Altura da linha para melhor legibilidade */
+  font-size: 1rem; /* Tamanho da fonte */
+  margin-bottom: 0.5rem; /* Margem inferior */
+  color: var(--text-color); /* Cor do texto */
+}
+
+article p strong {
+  color: var(--text-color); /* Cor do texto em negrito */
+  font-weight: 400; /* Peso da fonte */
+}
+
+article a {
+  color: var(--coin-gold); /* Cor do link */
+  text-decoration: none; /* Remove o sublinhado padrão */
+  font-weight: 600; /* Peso da fonte */
+  cursor: pointer; /* Muda o cursor para uma mão */
+}
+
+article a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.footer {
+  bottom: 0; /* Alinha na parte inferior */
+  left: 0; /* Alinha à esquerda */
+  width: 100%; /* Largura total */
+  display: flex; /* Habilita o layout flexbox */
+  flex-direction: column; /* Organiza os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  color: var(--text-color); /* Cor do texto */
+  background-color: var(--bg-color); /* Cor de fundo do rodapé */
+  padding: 8px 20px; /* Espaçamento interno */
+  border-top: 1px solid #3c4043; /* Borda superior */
+  font-size: 0.8rem; /* Tamanho da fonte */
+}
+
+.footer-location {
+  color: #9aa0a6; /* Cor do texto */
+  margin-bottom: 5px; /* Margem inferior */
+}
+
+.footer-links {
+  list-style: none; /* Remove os marcadores da lista */
+  display: flex; /* Habilita o layout flexbox */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  gap: 15px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+  color: var(--text-color); /* Cor do link */
+  text-decoration: none; /* Remove o sublinhado */
+  transition: color 0.2s; /* Transição suave para a cor */
+}
+
+.footer-links a:hover {
+  color: var(
+    --mario-red
+  ); /* Muda a cor do link ao passar o mouse (variável não definida) */
+}
+
+@media (max-width: 768px) {
+  header {
+    /* Estilos para telas com largura máxima de 768px */
+    flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
+    padding: 1rem; /* Reduz o espaçamento interno */
+  }
+
+  header h1 {
+    /* Estilos para o h1 no cabeçalho em telas menores */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 1rem; /* Adiciona margem inferior */
+  }
+
+  div input {
+    /* Estilos para o input em telas menores */
+    width: 90vw; /* Largura baseada na largura da viewport */
+    font-size: 1.2rem; /* Reduz o tamanho da fonte */
+  }
+
+  main {
+    /* Estilos para o main em telas menores */
+    padding: 0 1rem; /* Adiciona espaçamento lateral */
+  }
+
+  article:hover {
+    /* Estilos para o article em telas menores */
+    transform: none; /* Remove o efeito de escala ao passar o mouse */
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    /* Estilos para o h1 em telas com largura máxima de 480px */
+    font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
+    max-width: 70%; /* Define uma largura máxima */
+    word-wrap: break-word; /* Permite a quebra de palavras longas */
+  }
+
+  div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input::placeholder {
+    font-size: 1rem; /* Reduz o tamanho da fonte */
+  }
+
+  article h2 {
+    /* Estilos para o h2 do article em telas muito pequenas */
+    font-size: 1.3rem; /* Reduz o tamanho da fonte */
+  }
+
+  div {
+    /* Estilos para a div do cabeçalho em telas muito pequenas */
+    display: flex; /* Habilita flexbox */
+    align-items: center; /* Alinha itens ao centro */
+    justify-content: center; /* Centraliza itens */
+    flex-direction: column; /* Organiza em coluna */
+    gap: 0.5rem; /* Espaçamento entre os itens */
+  }
+
+  .footer {
+    /* Estilos para o rodapé em telas muito pequenas */
+    display: none; /* Oculta o rodapé */
+  }
+
+  button {
+    /* Estilos para o botão em telas muito pequenas */
+    margin-top: 1rem; /* Adiciona margem no topo */
+  }
+}
+
+.sugestao-busca {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--bg-color);
+  font-weight: bold;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.sugestao-busca button {
+  background-color: var(--mario-green);
+  color: var(--bg-color);
+  border: solid 1px --bg-color;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.sugestao-busca button:hover {
+  background-color: var(--coin-gold);
+}

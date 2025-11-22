@@ -1,0 +1,212 @@
+[
+  {
+    "nome": "Mario",
+    "descricao": "O herói principal do Reino Cogumelo. Mario é corajoso e alegre, e instantaneamente reconhecível com seu macacão azul, boné vermelho e bigode.",
+    "primeira_aparicao": 1981,
+    "imagem": "https://mario.nintendo.com/static/0f10f738d1f9aa8292fa7d93c35f2a07/02be2/mario.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/mario/"
+  },
+  {
+    "nome": "Luigi",
+    "descricao": "O irmão mais novo e mais alto de Mario. Luigi é um pouco medroso, especialmente perto de fantasmas, mas suas habilidades estão no mesmo nível de Mario.",
+    "primeira_aparicao": 1983,
+    "imagem": "https://mario.nintendo.com/static/73f9272aebf9a014261584b35597878f/d9801/luigi.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/luigi/"
+  },
+  {
+    "nome": "Princesa Peach",
+    "descricao": "A amada princesa do Reino Cogumelo. Ela é extremamente gentil e está sempre trabalhando para criar um mundo onde todos possam viver felizes.",
+    "primeira_aparicao": 1985,
+    "imagem": "https://mario.nintendo.com/static/43a96c1d5b681d338864aac15cd391b9/f3703/peach.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/peach/"
+  },
+  {
+    "nome": "Bowser",
+    "descricao": "O Rei dos Koopas e arqui-inimigo de Mario. Bowser está sempre causando problemas no Reino Cogumelo com seus planos de dominação.",
+    "primeira_aparicao": 1985,
+    "imagem": "https://mario.nintendo.com/static/7204f288e3e823a8203c445fb6cc0d7e/b1656/bowser.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/bowser/"
+  },
+  {
+    "nome": "Toad",
+    "descricao": "Um residente do Reino Cogumelo que trabalha a serviço da Princesa Peach. Toad é muito alegre e leal, sempre ajudando Mario e Luigi.",
+    "primeira_aparicao": 1985,
+    "imagem": "https://mario.nintendo.com/static/e3ebf11b069067da929b608250baa44e/55d59/toad.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/toad/"
+  },
+  {
+    "nome": "Yoshi",
+    "descricao": "O companheiro confiável de Mario que vem da Ilha de Yoshi. Ele usa sua longa língua para engolir frutas e inimigos.",
+    "primeira_aparicao": 1990,
+    "imagem": "https://mario.nintendo.com/static/850b7938ec9df2a77921738a12857e88/c4ba3/yoshi.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/yoshi/"
+  },
+  {
+    "nome": "Donkey Kong",
+    "descricao": "O poderoso rei da selva. Embora às vezes seja um rival de Mario, ele também é um herói por direito próprio, protegendo sua ilha e sua enorme reserva de bananas.",
+    "primeira_aparicao": 1981,
+    "imagem": "https://mario.nintendo.com/static/b444206395480738954c3cbbd86716cc/c2c43/donkey-kong.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/donkey-kong/"
+  },
+  {
+    "nome": "Rosalina",
+    "descricao": "Uma figura misteriosa e poderosa que viaja pelo cosmos com seus companheiros Lumas. Ela é a protetora do cosmos e observa as estrelas do Observatório do Cometa.",
+    "primeira_aparicao": 2007,
+    "imagem": "https://mario.nintendo.com/static/9413cb5d146400e7368855759d084c69/d1a6b/rosalina.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/rosalina/"
+  },
+  {
+    "nome": "Wario",
+    "descricao": "O rival ganancioso e mal-humorado de Mario. Ele é obcecado por tesouros e fará de tudo para ficar rico, muitas vezes causando problemas para os outros.",
+    "primeira_aparicao": 1992,
+    "imagem": "https://mario.nintendo.com/static/2e8e71c5b38a5aedd5eef91c3d54bf13/747d9/wario.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/wario/"
+  },
+  {
+    "nome": "Waluigi",
+    "descricao": "O parceiro de Wario e o autoproclamado rival de Luigi. Ele é alto, magro e adora causar travessuras, especialmente em competições esportivas.",
+    "primeira_aparicao": 2000,
+    "imagem": "https://mario.nintendo.com/static/54c0617c992012b38e212c154f4e3944/3eddd/waluigi.png",
+    "link": "https://www.nintendo.com/pt-br/store/characters/waluigi/"
+  },
+  {
+    "nome": "Goomba",
+    "descricao": "O inimigo mais básico do Reino do Cogumelo, de aparência semelhante a um cogumelo, que é facilmente derrotado pisoteando-o.",
+    "primeira_aparicao": 1985,
+    "imagem": "https://mario.wiki.gallery/images/7/7d/SMBW_Goomba.png",
+    "link": "https://www.mariowiki.com/Goomba"
+  },
+  {
+    "nome": "Kamek",
+    "descricao": "Um Magikoopa e conselheiro sênior de Bowser, frequentemente servindo como babá de Bowser quando criança e usando magia para atrapalhar Mario.",
+    "primeira_aparicao": 1995,
+    "imagem": "https://mario.wiki.gallery/images/3/3c/SMPJ_Kamek_Artwork.png",
+    "link": "https://www.mariowiki.com/Kamek"
+  },
+  {
+    "nome": "Birdo",
+    "descricao": "Um ser que atira ovos pela boca. Originalmente introduzido como um inimigo, mas que se tornou um personagem jogável recorrente em spin-offs esportivos.",
+    "primeira_aparicao": 1987,
+    "imagem": "https://mario.wiki.gallery/images/e/ed/MP9_Birdo_Main_Artwork.png",
+    "link": "https://www.mariowiki.com/Birdo"
+  },
+  {
+    "nome": "King Boo",
+    "descricao": "O líder de todos os Boos e um adversário primário de Luigi, conhecido por sua risada maligna e por aprisionar pessoas em pinturas ou objetos.",
+    "primeira_aparicao": 2001,
+    "imagem": "https://mario.wiki.gallery/images/4/47/Mario_Party_Star_Rush_King_Boo.png",
+    "link": "https://www.mariowiki.com/King_Boo"
+  },
+  {
+    "nome": "Shy Guy",
+    "descricao": "Inimigos mascarados, geralmente covardes e misteriosos, que aparecem em diversas cores e com várias funções táticas em jogos da série Mario e Yoshi.",
+    "primeira_aparicao": 1987,
+    "imagem": "https://mario.wiki.gallery/images/b/b2/MPS_Shy_Guy_Artwork.png",
+    "link": "https://www.mariowiki.com/Shy_Guy"
+  },
+  {
+    "nome": "Petey Piranha",
+    "descricao": "Uma gigantesca e mutante Planta Piranha que se comporta como um chefe, caracterizada por sua cabeça grande e pelos pés que usa para se mover.",
+    "primeira_aparicao": 2002,
+    "imagem": "https://mario.wiki.gallery/images/2/22/MPSR_Petey_Piranha.png",
+    "link": "https://www.mariowiki.com/Petey_Piranha"
+  },
+  {
+    "nome": "Pauline",
+    "descricao": "A donzela original em perigo que foi resgatada por Mario no jogo arcade. Ela ressurgiu como a prefeita de New Donk City e uma talentosa cantora.",
+    "primeira_aparicao": 1981,
+    "imagem": "https://www.mariowiki.com/images/e/ea/MK8D_BCP_Pauline_artwork.png?ae028",
+    "link": "https://www.mariowiki.com/Pauline"
+  },
+  {
+    "nome": "Captain Toad",
+    "descricao": "Um corajoso Toad aventureiro e líder da Brigada Toad. Ele é notável por carregar uma mochila pesada que o impede de pular longas distâncias.",
+    "primeira_aparicao": 2007,
+    "imagem": "https://mario.wiki.gallery/images/c/cb/Img-adventures-captain-toad.png",
+    "link": "https://www.mariowiki.com/Captain_Toad"
+  },
+  {
+    "nome": "Fawful",
+    "descricao": "Um vilão secundário e cientista excêntrico da série Mario & Luigi, famoso por sua fala cheia de metáforas incoerentes e frases mal traduzidas, como 'I have fury!'",
+    "primeira_aparicao": 2003,
+    "imagem": "https://mario.wiki.gallery/images/d/de/MLSS%2BBM_Art_-_Fawful.png",
+    "link": "https://www.mariowiki.com/Fawful"
+  },
+  {
+    "nome": "Dry Bones",
+    "descricao": "A versão esquelética e morta-viva de um Koopa Troopa. Quando pisoteado, ele se desintegra e se reforma após alguns segundos, sendo quase indestrutível.",
+    "primeira_aparicao": 1988,
+    "imagem": "https://www.mariowiki.com/images/3/33/MPSR_Dry_Bones.png?f2279",
+    "link": "https://www.mariowiki.com/Dry_Bones"
+  },
+  {
+    "nome": "Diddy Kong",
+    "descricao": "Companheiro ágil de Donkey Kong. Um macaco menor conhecido por seu boné vermelho e agilidade, frequentemente aparece em spin-offs e jogos de corrida.",
+    "primeira_aparicao": 1994,
+    "imagem": "https://mario.wiki.gallery/images/5/5c/DKBDiddyKongArtwork.png",
+    "link": "https://www.mariowiki.com/Diddy_Kong"
+  },
+  {
+    "nome": "Cranky Kong",
+    "descricao": "O avô resmungão de Donkey Kong, conhecido por seus conselhos irônicos e por ser, na verdade, o Donkey Kong original do arcade de 1981.",
+    "primeira_aparicao": 1994,
+    "imagem": "https://mario.wiki.gallery/images/4/4e/DKBCrankyKongArtwork.png",
+    "link": "https://www.mariowiki.com/Cranky_Kong"
+  },
+  {
+    "nome": "Boo",
+    "descricao": "Fantasmas tímidos que se aproximam furtivamente de Mario, mas param instantaneamente e cobrem o rosto quando ele se vira para encará-los.",
+    "primeira_aparicao": 1988,
+    "imagem": "https://mario.wiki.gallery/images/5/58/MKW_Boo_Roulette.png",
+    "link": "https://www.mariowiki.com/Boo"
+  },
+  {
+    "nome": "Hammer Bro",
+    "descricao": "Um Koopa Troopa de elite que ataca jogando múltiplos martelos em arcos rápidos. São inimigos terrestres notoriamente mais difíceis.",
+    "primeira_aparicao": 1985,
+    "imagem": "https://mario.wiki.gallery/images/e/e3/NSMBU_Hammer_Bro_Artwork.png",
+    "link": "https://www.mariowiki.com/Hammer_Bro"
+  },
+  {
+    "nome": "Wiggler",
+    "descricao": "Uma grande lagarta amarela e segmentada que fica furiosa (vermelha) quando pisoteada. Em seu estado irritado, torna-se muito mais rápida e agressiva.",
+    "primeira_aparicao": 1992,
+    "imagem": "https://www.mariowiki.com/images/7/7c/WigglerDS.png?d1eb6",
+    "link": "https://www.mariowiki.com/Wiggler"
+  },
+  {
+    "nome": "Boom Boom",
+    "descricao": "Um mini-chefe recorrente nas fortalezas de Bowser. Ele ataca girando rapidamente e usando seus braços espinhosos para infligir dano.",
+    "primeira_aparicao": 1988,
+    "imagem": "https://mario.wiki.gallery/images/a/af/DMW-BoomBoom.png",
+    "link": "https://www.mariowiki.com/Boom_Boom"
+  },
+  {
+    "nome": "Pom Pom",
+    "descricao": "A contraparte feminina de Boom Boom. Ela é uma mini-chefe que utiliza um grande bumerangue e fitas cor-de-rosa em seus ataques.",
+    "primeira_aparicao": 2011,
+    "imagem": "https://mario.wiki.gallery/images/9/96/SMP_Pom_Pom.png",
+    "link": "https://www.mariowiki.com/Pom_Pom"
+  },
+  {
+    "nome": "Luma",
+    "descricao": "Pequenas criaturas em forma de estrela, assistentes de Rosalina. Eles são capazes de se transformar em Power Stars ou planetas para ajudar Mario em suas aventuras espaciais.",
+    "primeira_aparicao": 2007,
+    "imagem": "https://mario.wiki.gallery/images/0/0d/SMGCollection_Luma.png",
+    "link": "https://www.mariowiki.com/Luma"
+  },
+  {
+    "nome": "Geno",
+    "descricao": "Um espírito guerreiro celestial que desce à Terra e possui uma boneca de madeira. Ele é enviado para restaurar a Star Road destruída pela Força Exército.",
+    "primeira_aparicao": 1996,
+    "imagem": "https://mario.wiki.gallery/images/7/7e/SMRPG_NS_Geno_2.png",
+    "link": "https://www.mariowiki.com/Geno"
+  },
+  {
+    "nome": "Spike",
+    "descricao": "Um tipo de Koopa que cospe bolas espinhosas (Spiked Balls) de sua boca, que rolam pelo chão, representando um perigo constante.",
+    "primeira_aparicao": 1988,
+    "imagem": "https://mario.wiki.gallery/images/2/20/Spike_-_Mario_Party_10.png",
+    "link": "https://www.mariowiki.com/Spike"
+  }
+]
